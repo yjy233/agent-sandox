@@ -1,0 +1,59 @@
+{
+ "id": 77,
+ "slug": "combinations",
+ "title": "组合",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "combine",
+ "params": [
+  "int",
+  "int"
+ ],
+ "ret": "intss",
+ "compare": "unordered_deep",
+ "cases": [
+  {
+   "args": [
+    4,
+    2
+   ],
+   "expected": [
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     4
+    ]
+   ]
+  },
+  {
+   "args": [
+    1,
+    1
+   ],
+   "expected": [
+    [
+     1
+    ]
+   ]
+  }
+ ]
+}

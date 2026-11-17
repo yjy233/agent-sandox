@@ -1,0 +1,28 @@
+{
+ "id": 159,
+ "slug": "longest-substring-with-at-most-two-distinct-characters",
+ "title": "至多包含两个不同字符的最长子串",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "lengthOfLongestSubstringTwoDistinct",
+ "params": [
+  "string"
+ ],
+ "ret": "int",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    "eceba"
+   ],
+   "expected": 3
+  },
+  {
+   "args": [
+    "ccaabbb"
+   ],
+   "expected": 5
+  }
+ ],
+ "note": "原题锁定题"
+}

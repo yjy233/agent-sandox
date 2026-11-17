@@ -1,0 +1,53 @@
+{
+ "id": 158,
+ "slug": "read-n-characters-given-read4-ii-call-multiple-times",
+ "title": "用 Read4 读取 N 个字符 II - 多次调用",
+ "difficulty": "困难",
+ "kind": "read4",
+ "func": null,
+ "params": [],
+ "ret": "void",
+ "compare": "exact",
+ "cases": [
+  {
+   "file": "abc",
+   "ns": [
+    1,
+    2,
+    1
+   ],
+   "expected": [
+    [
+     1,
+     "a"
+    ],
+    [
+     2,
+     "bc"
+    ],
+    [
+     0,
+     ""
+    ]
+   ]
+  },
+  {
+   "file": "abcde",
+   "ns": [
+    4,
+    4
+   ],
+   "expected": [
+    [
+     4,
+     "abcd"
+    ],
+    [
+     1,
+     "e"
+    ]
+   ]
+  }
+ ],
+ "note": "read 会被多次调用，需跨调用保存 read4 的剩余缓冲"
+}

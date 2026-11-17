@@ -1,0 +1,52 @@
+{
+ "id": 153,
+ "slug": "find-minimum-in-rotated-sorted-array",
+ "title": "寻找旋转排序数组中的最小值",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "findMin",
+ "params": [
+  "ints"
+ ],
+ "ret": "int",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     3,
+     4,
+     5,
+     1,
+     2
+    ]
+   ],
+   "expected": 1
+  },
+  {
+   "args": [
+    [
+     4,
+     5,
+     6,
+     7,
+     0,
+     1,
+     2
+    ]
+   ],
+   "expected": 0
+  },
+  {
+   "args": [
+    [
+     11,
+     13,
+     15,
+     17
+    ]
+   ],
+   "expected": 11
+  }
+ ]
+}

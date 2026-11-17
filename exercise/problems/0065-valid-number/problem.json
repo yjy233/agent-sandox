@@ -1,0 +1,99 @@
+{
+ "id": 65,
+ "slug": "valid-number",
+ "title": "有效数字",
+ "difficulty": "困难",
+ "kind": "func",
+ "func": "isNumber",
+ "params": [
+  "string"
+ ],
+ "ret": "bool",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    "0"
+   ],
+   "expected": true
+  },
+  {
+   "args": [
+    " 0.1 "
+   ],
+   "expected": true
+  },
+  {
+   "args": [
+    "abc"
+   ],
+   "expected": false
+  },
+  {
+   "args": [
+    "1 a"
+   ],
+   "expected": false
+  },
+  {
+   "args": [
+    "2e10"
+   ],
+   "expected": true
+  },
+  {
+   "args": [
+    " -90e3   "
+   ],
+   "expected": true
+  },
+  {
+   "args": [
+    "1e"
+   ],
+   "expected": false
+  },
+  {
+   "args": [
+    "e3"
+   ],
+   "expected": false
+  },
+  {
+   "args": [
+    " 6e-1"
+   ],
+   "expected": true
+  },
+  {
+   "args": [
+    " 99e2.5 "
+   ],
+   "expected": false
+  },
+  {
+   "args": [
+    "53.5e93"
+   ],
+   "expected": true
+  },
+  {
+   "args": [
+    " --6 "
+   ],
+   "expected": false
+  },
+  {
+   "args": [
+    "-+3"
+   ],
+   "expected": false
+  },
+  {
+   "args": [
+    "95a54e53"
+   ],
+   "expected": false
+  }
+ ]
+}

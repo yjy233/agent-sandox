@@ -1,0 +1,37 @@
+{
+ "id": 84,
+ "slug": "largest-rectangle-in-histogram",
+ "title": "柱状图中最大的矩形",
+ "difficulty": "困难",
+ "kind": "func",
+ "func": "largestRectangleArea",
+ "params": [
+  "ints"
+ ],
+ "ret": "int",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     2,
+     1,
+     5,
+     6,
+     2,
+     3
+    ]
+   ],
+   "expected": 10
+  },
+  {
+   "args": [
+    [
+     2,
+     4
+    ]
+   ],
+   "expected": 4
+  }
+ ]
+}

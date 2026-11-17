@@ -1,0 +1,59 @@
+{
+ "id": 90,
+ "slug": "subsets-ii",
+ "title": "子集 II",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "subsetsWithDup",
+ "params": [
+  "ints"
+ ],
+ "ret": "intss",
+ "compare": "unordered_deep",
+ "cases": [
+  {
+   "args": [
+    [
+     1,
+     2,
+     2
+    ]
+   ],
+   "expected": [
+    [],
+    [
+     1
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     2,
+     2
+    ],
+    [
+     2
+    ],
+    [
+     2,
+     2
+    ]
+   ]
+  },
+  {
+   "args": [
+    [
+     0
+    ]
+   ],
+   "expected": [
+    [],
+    [
+     0
+    ]
+   ]
+  }
+ ]
+}

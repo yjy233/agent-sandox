@@ -1,0 +1,45 @@
+{
+ "id": 136,
+ "slug": "single-number",
+ "title": "只出现一次的数字",
+ "difficulty": "简单",
+ "kind": "func",
+ "func": "singleNumber",
+ "params": [
+  "ints"
+ ],
+ "ret": "int",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     2,
+     2,
+     1
+    ]
+   ],
+   "expected": 1
+  },
+  {
+   "args": [
+    [
+     4,
+     1,
+     2,
+     1,
+     2
+    ]
+   ],
+   "expected": 4
+  },
+  {
+   "args": [
+    [
+     1
+    ]
+   ],
+   "expected": 1
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "id": 30,
+ "slug": "substring-with-concatenation-of-all-words",
+ "title": "串联所有单词的子串",
+ "difficulty": "困难",
+ "kind": "func",
+ "func": "findSubstring",
+ "params": [
+  "string",
+  "strings"
+ ],
+ "ret": "ints",
+ "compare": "unordered",
+ "cases": [
+  {
+   "args": [
+    "barfoothefoobarman",
+    [
+     "foo",
+     "bar"
+    ]
+   ],
+   "expected": [
+    0,
+    9
+   ]
+  },
+  {
+   "args": [
+    "wordgoodgoodgoodbestword",
+    [
+     "word",
+     "good",
+     "best",
+     "word"
+    ]
+   ],
+   "expected": []
+  },
+  {
+   "args": [
+    "barfoofoobarthefoobarman",
+    [
+     "bar",
+     "foo",
+     "the"
+    ]
+   ],
+   "expected": [
+    6,
+    9,
+    12
+   ]
+  }
+ ]
+}

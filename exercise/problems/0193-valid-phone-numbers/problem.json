@@ -1,0 +1,20 @@
+{
+ "id": 193,
+ "slug": "valid-phone-numbers",
+ "title": "有效电话号码",
+ "difficulty": "简单",
+ "kind": "shell",
+ "func": null,
+ "params": [],
+ "ret": "void",
+ "compare": "exact",
+ "cases": [
+  {
+   "files": {
+    "file.txt": "987-123-4567\n123 456 7890\n(123) 456-7890\n"
+   },
+   "expected": "987-123-4567\n(123) 456-7890\n"
+  }
+ ],
+ "note": "读取 file.txt，输出格式为 (xxx) xxx-xxxx 或 xxx-xxx-xxxx 的行"
+}

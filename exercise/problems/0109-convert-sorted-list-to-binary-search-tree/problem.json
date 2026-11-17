@@ -1,0 +1,34 @@
+{
+ "id": 109,
+ "slug": "convert-sorted-list-to-binary-search-tree",
+ "title": "有序链表转换二叉搜索树",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "sortedListToBST",
+ "params": [
+  "list"
+ ],
+ "ret": "tree",
+ "compare": "bst",
+ "cases": [
+  {
+   "args": [
+    [
+     -10,
+     -3,
+     0,
+     5,
+     9
+    ]
+   ],
+   "expected": null
+  },
+  {
+   "args": [
+    []
+   ],
+   "expected": null
+  }
+ ],
+ "note": "答案不唯一：判题检查输出是输入值构成的高度平衡 BST"
+}

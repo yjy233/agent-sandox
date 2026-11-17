@@ -1,0 +1,44 @@
+{
+ "id": 62,
+ "slug": "unique-paths",
+ "title": "不同路径",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "uniquePaths",
+ "params": [
+  "int",
+  "int"
+ ],
+ "ret": "int",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    3,
+    7
+   ],
+   "expected": 28
+  },
+  {
+   "args": [
+    3,
+    2
+   ],
+   "expected": 3
+  },
+  {
+   "args": [
+    7,
+    3
+   ],
+   "expected": 28
+  },
+  {
+   "args": [
+    3,
+    3
+   ],
+   "expected": 6
+  }
+ ]
+}

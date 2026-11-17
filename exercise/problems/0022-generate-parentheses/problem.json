@@ -1,0 +1,35 @@
+{
+ "id": 22,
+ "slug": "generate-parentheses",
+ "title": "括号生成",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "generateParenthesis",
+ "params": [
+  "int"
+ ],
+ "ret": "strings",
+ "compare": "unordered",
+ "cases": [
+  {
+   "args": [
+    3
+   ],
+   "expected": [
+    "((()))",
+    "(()())",
+    "(())()",
+    "()(())",
+    "()()()"
+   ]
+  },
+  {
+   "args": [
+    1
+   ],
+   "expected": [
+    "()"
+   ]
+  }
+ ]
+}

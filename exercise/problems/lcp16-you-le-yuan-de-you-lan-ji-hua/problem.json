@@ -1,0 +1,17 @@
+{
+ "id": "LCP16",
+ "slug": "you-le-yuan-de-you-lan-ji-hua",
+ "title": "游乐园的游览计划",
+ "difficulty": "困难",
+ "kind": "func",
+ "func": "maxWeight",
+ "params": [
+  "intss",
+  "ints",
+  "intss"
+ ],
+ "ret": "int",
+ "compare": "exact",
+ "cases": [],
+ "note": "maxWeight(edges, values, nums)；请核对力扣签名并自行补充用例"
+}

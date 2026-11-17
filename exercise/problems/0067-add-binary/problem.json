@@ -1,0 +1,30 @@
+{
+ "id": 67,
+ "slug": "add-binary",
+ "title": "二进制求和",
+ "difficulty": "简单",
+ "kind": "func",
+ "func": "addBinary",
+ "params": [
+  "string",
+  "string"
+ ],
+ "ret": "string",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    "11",
+    "1"
+   ],
+   "expected": "100"
+  },
+  {
+   "args": [
+    "1010",
+    "1011"
+   ],
+   "expected": "10101"
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "id": 165,
+ "slug": "compare-version-numbers",
+ "title": "比较版本号",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "compareVersion",
+ "params": [
+  "string",
+  "string"
+ ],
+ "ret": "int",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    "1.01",
+    "1.001"
+   ],
+   "expected": 0
+  },
+  {
+   "args": [
+    "1.0",
+    "1.0.0"
+   ],
+   "expected": 0
+  },
+  {
+   "args": [
+    "0.1",
+    "1.1"
+   ],
+   "expected": -1
+  },
+  {
+   "args": [
+    "1.2",
+    "1.10"
+   ],
+   "expected": -1
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "id": 197,
+ "slug": "rising-temperature",
+ "title": "上升的温度",
+ "difficulty": "简单",
+ "kind": "sql",
+ "func": null,
+ "params": [],
+ "ret": "void",
+ "compare": "exact",
+ "cases": [
+  {
+   "setup": "CREATE TABLE Weather (id INT, recordDate DATE, temperature INT);INSERT INTO Weather VALUES (1,'2015-01-01',10),(2,'2015-01-02',25),(3,'2015-01-03',20),(4,'2015-01-04',30);",
+   "expected": [
+    [
+     2
+    ],
+    [
+     4
+    ]
+   ]
+  }
+ ],
+ "note": "输出列: id；温度比前一天高的日期 id"
+}

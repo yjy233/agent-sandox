@@ -1,0 +1,51 @@
+{
+ "id": 29,
+ "slug": "divide-two-integers",
+ "title": "两数相除",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "divide",
+ "params": [
+  "int",
+  "int"
+ ],
+ "ret": "int",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    10,
+    3
+   ],
+   "expected": 3
+  },
+  {
+   "args": [
+    7,
+    -3
+   ],
+   "expected": -2
+  },
+  {
+   "args": [
+    0,
+    1
+   ],
+   "expected": 0
+  },
+  {
+   "args": [
+    1,
+    1
+   ],
+   "expected": 1
+  },
+  {
+   "args": [
+    -2147483648,
+    -1
+   ],
+   "expected": 2147483647
+  }
+ ]
+}

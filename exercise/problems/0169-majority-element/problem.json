@@ -1,0 +1,39 @@
+{
+ "id": 169,
+ "slug": "majority-element",
+ "title": "多数元素",
+ "difficulty": "简单",
+ "kind": "func",
+ "func": "majorityElement",
+ "params": [
+  "ints"
+ ],
+ "ret": "int",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     3,
+     2,
+     3
+    ]
+   ],
+   "expected": 3
+  },
+  {
+   "args": [
+    [
+     2,
+     2,
+     1,
+     1,
+     1,
+     2,
+     2
+    ]
+   ],
+   "expected": 2
+  }
+ ]
+}

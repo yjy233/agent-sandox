@@ -1,0 +1,39 @@
+{
+ "id": 124,
+ "slug": "binary-tree-maximum-path-sum",
+ "title": "二叉树中的最大路径和",
+ "difficulty": "困难",
+ "kind": "func",
+ "func": "maxPathSum",
+ "params": [
+  "tree"
+ ],
+ "ret": "int",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     1,
+     2,
+     3
+    ]
+   ],
+   "expected": 6
+  },
+  {
+   "args": [
+    [
+     -10,
+     9,
+     20,
+     null,
+     null,
+     15,
+     7
+    ]
+   ],
+   "expected": 42
+  }
+ ]
+}

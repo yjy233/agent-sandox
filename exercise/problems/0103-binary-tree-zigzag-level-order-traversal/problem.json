@@ -1,0 +1,59 @@
+{
+ "id": 103,
+ "slug": "binary-tree-zigzag-level-order-traversal",
+ "title": "二叉树的锯齿形层序遍历",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "zigzagLevelOrder",
+ "params": [
+  "tree"
+ ],
+ "ret": "intss",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     3,
+     9,
+     20,
+     null,
+     null,
+     15,
+     7
+    ]
+   ],
+   "expected": [
+    [
+     3
+    ],
+    [
+     20,
+     9
+    ],
+    [
+     15,
+     7
+    ]
+   ]
+  },
+  {
+   "args": [
+    [
+     1
+    ]
+   ],
+   "expected": [
+    [
+     1
+    ]
+   ]
+  },
+  {
+   "args": [
+    []
+   ],
+   "expected": []
+  }
+ ]
+}

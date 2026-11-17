@@ -1,0 +1,41 @@
+{
+ "id": 97,
+ "slug": "interleaving-string",
+ "title": "交错字符串",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "isInterleave",
+ "params": [
+  "string",
+  "string",
+  "string"
+ ],
+ "ret": "bool",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    "aabcc",
+    "dbbca",
+    "aadbbcbcac"
+   ],
+   "expected": true
+  },
+  {
+   "args": [
+    "aabcc",
+    "dbbca",
+    "aadbbbaccc"
+   ],
+   "expected": false
+  },
+  {
+   "args": [
+    "",
+    "",
+    ""
+   ],
+   "expected": true
+  }
+ ]
+}

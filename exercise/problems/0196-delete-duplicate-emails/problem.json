@@ -1,0 +1,29 @@
+{
+ "id": 196,
+ "slug": "delete-duplicate-emails",
+ "title": "删除重复的电子邮箱",
+ "difficulty": "简单",
+ "kind": "sql",
+ "func": null,
+ "params": [],
+ "ret": "void",
+ "compare": "exact",
+ "cases": [
+  {
+   "setup": "CREATE TABLE Person (id INT, email VARCHAR(100));INSERT INTO Person VALUES (1,'john@example.com'),(2,'bob@example.com'),(3,'john@example.com');",
+   "verify": "SELECT id, email FROM Person ORDER BY id;",
+   "expected": [
+    [
+     1,
+     "john@example.com"
+    ],
+    [
+     2,
+     "bob@example.com"
+    ]
+   ],
+   "ordered": true
+  }
+ ],
+ "note": "写 DELETE 语句：删除重复邮箱，仅保留 id 最小的一行；判题执行后查询验证"
+}

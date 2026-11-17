@@ -1,0 +1,37 @@
+{
+ "id": 129,
+ "slug": "sum-root-to-leaf-numbers",
+ "title": "求根节点到叶节点数字之和",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "sumNumbers",
+ "params": [
+  "tree"
+ ],
+ "ret": "int",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     1,
+     2,
+     3
+    ]
+   ],
+   "expected": 25
+  },
+  {
+   "args": [
+    [
+     4,
+     9,
+     0,
+     5,
+     1
+    ]
+   ],
+   "expected": 1026
+  }
+ ]
+}

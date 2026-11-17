@@ -1,0 +1,50 @@
+{
+ "id": 134,
+ "slug": "gas-station",
+ "title": "加油站",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "canCompleteCircuit",
+ "params": [
+  "ints",
+  "ints"
+ ],
+ "ret": "int",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    [
+     3,
+     4,
+     5,
+     1,
+     2
+    ]
+   ],
+   "expected": 3
+  },
+  {
+   "args": [
+    [
+     2,
+     3,
+     4
+    ],
+    [
+     3,
+     4,
+     3
+    ]
+   ],
+   "expected": -1
+  }
+ ]
+}

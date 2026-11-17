@@ -1,0 +1,33 @@
+{
+ "id": 70,
+ "slug": "climbing-stairs",
+ "title": "爬楼梯",
+ "difficulty": "简单",
+ "kind": "func",
+ "func": "climbStairs",
+ "params": [
+  "int"
+ ],
+ "ret": "int",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    2
+   ],
+   "expected": 2
+  },
+  {
+   "args": [
+    3
+   ],
+   "expected": 3
+  },
+  {
+   "args": [
+    1
+   ],
+   "expected": 1
+  }
+ ]
+}

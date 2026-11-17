@@ -1,0 +1,33 @@
+{
+ "id": 151,
+ "slug": "reverse-words-in-a-string",
+ "title": "反转字符串中的单词",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "reverseWords",
+ "params": [
+  "string"
+ ],
+ "ret": "string",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    "the sky is blue"
+   ],
+   "expected": "blue is sky the"
+  },
+  {
+   "args": [
+    "  hello world  "
+   ],
+   "expected": "world hello"
+  },
+  {
+   "args": [
+    "a good   example"
+   ],
+   "expected": "example good a"
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "id": 49,
+ "slug": "group-anagrams",
+ "title": "字母异位词分组",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "groupAnagrams",
+ "params": [
+  "strings"
+ ],
+ "ret": "stringss",
+ "compare": "unordered_deep",
+ "cases": [
+  {
+   "args": [
+    [
+     "eat",
+     "tea",
+     "tan",
+     "ate",
+     "nat",
+     "bat"
+    ]
+   ],
+   "expected": [
+    [
+     "bat"
+    ],
+    [
+     "nat",
+     "tan"
+    ],
+    [
+     "ate",
+     "eat",
+     "tea"
+    ]
+   ]
+  },
+  {
+   "args": [
+    [
+     ""
+    ]
+   ],
+   "expected": [
+    [
+     ""
+    ]
+   ]
+  },
+  {
+   "args": [
+    [
+     "a"
+    ]
+   ],
+   "expected": [
+    [
+     "a"
+    ]
+   ]
+  }
+ ]
+}

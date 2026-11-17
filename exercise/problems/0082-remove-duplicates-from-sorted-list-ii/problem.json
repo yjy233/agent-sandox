@@ -1,0 +1,48 @@
+{
+ "id": 82,
+ "slug": "remove-duplicates-from-sorted-list-ii",
+ "title": "删除排序链表中的重复元素 II",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "deleteDuplicates",
+ "params": [
+  "list"
+ ],
+ "ret": "list",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     1,
+     2,
+     3,
+     3,
+     4,
+     4,
+     5
+    ]
+   ],
+   "expected": [
+    1,
+    2,
+    5
+   ]
+  },
+  {
+   "args": [
+    [
+     1,
+     1,
+     1,
+     2,
+     3
+    ]
+   ],
+   "expected": [
+    2,
+    3
+   ]
+  }
+ ]
+}

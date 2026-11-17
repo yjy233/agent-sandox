@@ -1,0 +1,37 @@
+{
+ "id": 43,
+ "slug": "multiply-strings",
+ "title": "字符串相乘",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "multiply",
+ "params": [
+  "string",
+  "string"
+ ],
+ "ret": "string",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    "2",
+    "3"
+   ],
+   "expected": "6"
+  },
+  {
+   "args": [
+    "123",
+    "456"
+   ],
+   "expected": "56088"
+  },
+  {
+   "args": [
+    "0",
+    "52"
+   ],
+   "expected": "0"
+  }
+ ]
+}

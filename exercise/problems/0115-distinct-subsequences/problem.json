@@ -1,0 +1,30 @@
+{
+ "id": 115,
+ "slug": "distinct-subsequences",
+ "title": "不同的子序列",
+ "difficulty": "困难",
+ "kind": "func",
+ "func": "numDistinct",
+ "params": [
+  "string",
+  "string"
+ ],
+ "ret": "int",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    "rabbbit",
+    "rabbit"
+   ],
+   "expected": 3
+  },
+  {
+   "args": [
+    "babgbag",
+    "bag"
+   ],
+   "expected": 5
+  }
+ ]
+}

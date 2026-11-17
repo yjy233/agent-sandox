@@ -1,0 +1,37 @@
+{
+ "id": 28,
+ "slug": "find-the-index-of-the-first-occurrence-in-a-string",
+ "title": "找出字符串中第一个匹配项的下标",
+ "difficulty": "简单",
+ "kind": "func",
+ "func": "strStr",
+ "params": [
+  "string",
+  "string"
+ ],
+ "ret": "int",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    "sadbutsad",
+    "sad"
+   ],
+   "expected": 0
+  },
+  {
+   "args": [
+    "leetcode",
+    "leeto"
+   ],
+   "expected": -1
+  },
+  {
+   "args": [
+    "a",
+    "a"
+   ],
+   "expected": 0
+  }
+ ]
+}

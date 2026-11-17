@@ -1,0 +1,37 @@
+{
+ "id": 87,
+ "slug": "scramble-string",
+ "title": "扰乱字符串",
+ "difficulty": "困难",
+ "kind": "func",
+ "func": "isScramble",
+ "params": [
+  "string",
+  "string"
+ ],
+ "ret": "bool",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    "great",
+    "rgeat"
+   ],
+   "expected": true
+  },
+  {
+   "args": [
+    "abcde",
+    "caebd"
+   ],
+   "expected": false
+  },
+  {
+   "args": [
+    "a",
+    "a"
+   ],
+   "expected": true
+  }
+ ]
+}

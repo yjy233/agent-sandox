@@ -1,0 +1,49 @@
+{
+ "id": 185,
+ "slug": "department-top-three-salaries",
+ "title": "部门工资前三高的所有员工",
+ "difficulty": "困难",
+ "kind": "sql",
+ "func": null,
+ "params": [],
+ "ret": "void",
+ "compare": "exact",
+ "cases": [
+  {
+   "setup": "CREATE TABLE Employee (id INT, name VARCHAR(50), salary INT, departmentId INT);CREATE TABLE Department (id INT, name VARCHAR(50));INSERT INTO Employee VALUES (1,'Joe',85000,1),(2,'Henry',80000,2),(3,'Sam',60000,2),(4,'Max',90000,1),(5,'Janet',69000,1),(6,'Randy',85000,1),(7,'Will',70000,1);INSERT INTO Department VALUES (1,'IT'),(2,'Sales');",
+   "expected": [
+    [
+     "IT",
+     "Max",
+     90000
+    ],
+    [
+     "IT",
+     "Joe",
+     85000
+    ],
+    [
+     "IT",
+     "Randy",
+     85000
+    ],
+    [
+     "IT",
+     "Will",
+     70000
+    ],
+    [
+     "Sales",
+     "Henry",
+     80000
+    ],
+    [
+     "Sales",
+     "Sam",
+     60000
+    ]
+   ]
+  }
+ ],
+ "note": "输出列: Department, Employee, Salary；部门内前三个不同最高薪水的所有员工"
+}

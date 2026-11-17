@@ -1,0 +1,75 @@
+{
+ "id": 163,
+ "slug": "missing-ranges",
+ "title": "缺失的区间",
+ "difficulty": "简单",
+ "kind": "func",
+ "func": "findMissingRanges",
+ "params": [
+  "ints",
+  "int",
+  "int"
+ ],
+ "ret": "intss",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     0,
+     1,
+     3,
+     50,
+     75
+    ],
+    0,
+    99
+   ],
+   "expected": [
+    [
+     2,
+     2
+    ],
+    [
+     4,
+     49
+    ],
+    [
+     51,
+     74
+    ],
+    [
+     76,
+     99
+    ]
+   ]
+  },
+  {
+   "args": [
+    [],
+    1,
+    1
+   ],
+   "expected": [
+    [
+     1,
+     1
+    ]
+   ]
+  },
+  {
+   "args": [
+    [],
+    -3,
+    -1
+   ],
+   "expected": [
+    [
+     -3,
+     -1
+    ]
+   ]
+  }
+ ],
+ "note": "原题锁定题；采用新版返回格式 [[lo,hi],...]"
+}

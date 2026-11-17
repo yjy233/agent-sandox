@@ -1,0 +1,33 @@
+{
+ "id": 125,
+ "slug": "valid-palindrome",
+ "title": "验证回文串",
+ "difficulty": "简单",
+ "kind": "func",
+ "func": "isPalindrome",
+ "params": [
+  "string"
+ ],
+ "ret": "bool",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    "A man, a plan, a canal: Panama"
+   ],
+   "expected": true
+  },
+  {
+   "args": [
+    "race a car"
+   ],
+   "expected": false
+  },
+  {
+   "args": [
+    " "
+   ],
+   "expected": true
+  }
+ ]
+}

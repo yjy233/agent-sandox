@@ -1,0 +1,45 @@
+{
+ "id": 8,
+ "slug": "string-to-integer-atoi",
+ "title": "字符串转换整数 (atoi)",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "myAtoi",
+ "params": [
+  "string"
+ ],
+ "ret": "int",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    "42"
+   ],
+   "expected": 42
+  },
+  {
+   "args": [
+    "   -42"
+   ],
+   "expected": -42
+  },
+  {
+   "args": [
+    "4193 with words"
+   ],
+   "expected": 4193
+  },
+  {
+   "args": [
+    "words and 987"
+   ],
+   "expected": 0
+  },
+  {
+   "args": [
+    "-91283472332"
+   ],
+   "expected": -2147483648
+  }
+ ]
+}

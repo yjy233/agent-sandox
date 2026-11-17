@@ -1,0 +1,49 @@
+{
+ "id": 92,
+ "slug": "reverse-linked-list-ii",
+ "title": "反转链表 II",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "reverseBetween",
+ "params": [
+  "list",
+  "int",
+  "int"
+ ],
+ "ret": "list",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    2,
+    4
+   ],
+   "expected": [
+    1,
+    4,
+    3,
+    2,
+    5
+   ]
+  },
+  {
+   "args": [
+    [
+     5
+    ],
+    1,
+    1
+   ],
+   "expected": [
+    5
+   ]
+  }
+ ]
+}

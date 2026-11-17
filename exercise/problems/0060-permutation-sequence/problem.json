@@ -1,0 +1,37 @@
+{
+ "id": 60,
+ "slug": "permutation-sequence",
+ "title": "排列序列",
+ "difficulty": "困难",
+ "kind": "func",
+ "func": "getPermutation",
+ "params": [
+  "int",
+  "int"
+ ],
+ "ret": "string",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    3,
+    3
+   ],
+   "expected": "213"
+  },
+  {
+   "args": [
+    4,
+    9
+   ],
+   "expected": "2314"
+  },
+  {
+   "args": [
+    3,
+    1
+   ],
+   "expected": "123"
+  }
+ ]
+}

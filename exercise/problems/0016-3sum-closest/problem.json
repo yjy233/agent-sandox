@@ -1,0 +1,39 @@
+{
+ "id": 16,
+ "slug": "3sum-closest",
+ "title": "最接近的三数之和",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "threeSumClosest",
+ "params": [
+  "ints",
+  "int"
+ ],
+ "ret": "int",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     -1,
+     2,
+     1,
+     -4
+    ],
+    1
+   ],
+   "expected": 2
+  },
+  {
+   "args": [
+    [
+     0,
+     0,
+     0
+    ],
+    1
+   ],
+   "expected": 0
+  }
+ ]
+}

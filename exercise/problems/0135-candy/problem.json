@@ -1,0 +1,35 @@
+{
+ "id": 135,
+ "slug": "candy",
+ "title": "分发糖果",
+ "difficulty": "困难",
+ "kind": "func",
+ "func": "candy",
+ "params": [
+  "ints"
+ ],
+ "ret": "int",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     1,
+     0,
+     2
+    ]
+   ],
+   "expected": 5
+  },
+  {
+   "args": [
+    [
+     1,
+     2,
+     2
+    ]
+   ],
+   "expected": 4
+  }
+ ]
+}

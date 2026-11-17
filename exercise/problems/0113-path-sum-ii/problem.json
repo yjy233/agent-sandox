@@ -1,0 +1,71 @@
+{
+ "id": 113,
+ "slug": "path-sum-ii",
+ "title": "路径总和 II",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "pathSum",
+ "params": [
+  "tree",
+  "int"
+ ],
+ "ret": "intss",
+ "compare": "unordered",
+ "cases": [
+  {
+   "args": [
+    [
+     5,
+     4,
+     8,
+     11,
+     null,
+     13,
+     4,
+     7,
+     2,
+     null,
+     null,
+     5,
+     1
+    ],
+    22
+   ],
+   "expected": [
+    [
+     5,
+     4,
+     11,
+     2
+    ],
+    [
+     5,
+     8,
+     4,
+     5
+    ]
+   ]
+  },
+  {
+   "args": [
+    [
+     1,
+     2,
+     3
+    ],
+    5
+   ],
+   "expected": []
+  },
+  {
+   "args": [
+    [
+     1,
+     2
+    ],
+    0
+   ],
+   "expected": []
+  }
+ ]
+}

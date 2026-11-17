@@ -1,0 +1,46 @@
+{
+ "id": 144,
+ "slug": "binary-tree-preorder-traversal",
+ "title": "二叉树的前序遍历",
+ "difficulty": "简单",
+ "kind": "func",
+ "func": "preorderTraversal",
+ "params": [
+  "tree"
+ ],
+ "ret": "ints",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     1,
+     null,
+     2,
+     3
+    ]
+   ],
+   "expected": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "args": [
+    []
+   ],
+   "expected": []
+  },
+  {
+   "args": [
+    [
+     1
+    ]
+   ],
+   "expected": [
+    1
+   ]
+  }
+ ]
+}

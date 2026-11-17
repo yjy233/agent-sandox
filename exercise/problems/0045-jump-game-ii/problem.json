@@ -1,0 +1,47 @@
+{
+ "id": 45,
+ "slug": "jump-game-ii",
+ "title": "跳跃游戏 II",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "jump",
+ "params": [
+  "ints"
+ ],
+ "ret": "int",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     2,
+     3,
+     1,
+     1,
+     4
+    ]
+   ],
+   "expected": 2
+  },
+  {
+   "args": [
+    [
+     2,
+     3,
+     0,
+     1,
+     4
+    ]
+   ],
+   "expected": 2
+  },
+  {
+   "args": [
+    [
+     0
+    ]
+   ],
+   "expected": 0
+  }
+ ]
+}

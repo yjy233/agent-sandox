@@ -1,0 +1,52 @@
+{
+ "id": 75,
+ "slug": "sort-colors",
+ "title": "颜色分类",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "sortColors",
+ "params": [
+  "ints"
+ ],
+ "ret": "void",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     2,
+     0,
+     2,
+     1,
+     1,
+     0
+    ]
+   ],
+   "expected": [
+    0,
+    0,
+    1,
+    1,
+    2,
+    2
+   ]
+  },
+  {
+   "args": [
+    [
+     2,
+     0,
+     1
+    ]
+   ],
+   "expected": [
+    0,
+    1,
+    2
+   ]
+  }
+ ],
+ "out": {
+  "arg": 0
+ }
+}

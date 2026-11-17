@@ -1,0 +1,65 @@
+{
+ "id": 27,
+ "slug": "remove-element",
+ "title": "移除元素",
+ "difficulty": "简单",
+ "kind": "func",
+ "func": "removeElement",
+ "params": [
+  "ints",
+  "int"
+ ],
+ "ret": "int",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     3,
+     2,
+     2,
+     3
+    ],
+    3
+   ],
+   "expected": [
+    2,
+    [
+     2,
+     2
+    ]
+   ],
+   "compare": "prefix_set"
+  },
+  {
+   "args": [
+    [
+     0,
+     1,
+     2,
+     2,
+     3,
+     0,
+     4,
+     2
+    ],
+    2
+   ],
+   "expected": [
+    5,
+    [
+     0,
+     1,
+     3,
+     0,
+     4
+    ]
+   ],
+   "compare": "prefix_set"
+  }
+ ],
+ "out": {
+  "ret_prefix": 0
+ },
+ "note": "原地修改；前 k 项顺序任意（按多重集比较）"
+}

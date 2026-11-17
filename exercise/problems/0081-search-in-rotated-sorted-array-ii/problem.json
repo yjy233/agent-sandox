@@ -1,0 +1,46 @@
+{
+ "id": 81,
+ "slug": "search-in-rotated-sorted-array-ii",
+ "title": "搜索旋转排序数组 II",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "search",
+ "params": [
+  "ints",
+  "int"
+ ],
+ "ret": "bool",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     2,
+     5,
+     6,
+     0,
+     0,
+     1,
+     2
+    ],
+    0
+   ],
+   "expected": true
+  },
+  {
+   "args": [
+    [
+     2,
+     5,
+     6,
+     0,
+     0,
+     1,
+     2
+    ],
+    3
+   ],
+   "expected": false
+  }
+ ]
+}

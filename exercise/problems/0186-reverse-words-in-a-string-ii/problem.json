@@ -1,0 +1,67 @@
+{
+ "id": 186,
+ "slug": "reverse-words-in-a-string-ii",
+ "title": "反转字符串中的单词 II",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "reverseWords",
+ "params": [
+  "strings"
+ ],
+ "ret": "void",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     "t",
+     "h",
+     "e",
+     " ",
+     "s",
+     "k",
+     "y",
+     " ",
+     "i",
+     "s",
+     " ",
+     "b",
+     "l",
+     "u",
+     "e"
+    ]
+   ],
+   "expected": [
+    "b",
+    "l",
+    "u",
+    "e",
+    " ",
+    "i",
+    "s",
+    " ",
+    "t",
+    "h",
+    "e",
+    " ",
+    "s",
+    "k",
+    "y"
+   ]
+  },
+  {
+   "args": [
+    [
+     "a"
+    ]
+   ],
+   "expected": [
+    "a"
+   ]
+  }
+ ],
+ "out": {
+  "arg": 0
+ },
+ "note": "原题锁定题；字符数组原地反转单词顺序，单词内字符顺序不变，O(1) 额外空间"
+}

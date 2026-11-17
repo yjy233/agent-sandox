@@ -1,0 +1,45 @@
+{
+ "id": 104,
+ "slug": "maximum-depth-of-binary-tree",
+ "title": "二叉树的最大深度",
+ "difficulty": "简单",
+ "kind": "func",
+ "func": "maxDepth",
+ "params": [
+  "tree"
+ ],
+ "ret": "int",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     3,
+     9,
+     20,
+     null,
+     null,
+     15,
+     7
+    ]
+   ],
+   "expected": 3
+  },
+  {
+   "args": [
+    [
+     1,
+     null,
+     2
+    ]
+   ],
+   "expected": 2
+  },
+  {
+   "args": [
+    []
+   ],
+   "expected": 0
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "id": 157,
+ "slug": "read-n-characters-given-read4",
+ "title": "用 Read4 读取 N 个字符",
+ "difficulty": "简单",
+ "kind": "read4",
+ "func": null,
+ "params": [],
+ "ret": "void",
+ "compare": "exact",
+ "cases": [
+  {
+   "file": "abc",
+   "ns": [
+    4
+   ],
+   "expected": [
+    [
+     3,
+     "abc"
+    ]
+   ]
+  },
+  {
+   "file": "abcde",
+   "ns": [
+    3
+   ],
+   "expected": [
+    [
+     3,
+     "abc"
+    ]
+   ]
+  }
+ ],
+ "note": "判题器注入 read4；read(buf, n) 返回实际读取字符数，buf 前 r 项为读到的内容"
+}

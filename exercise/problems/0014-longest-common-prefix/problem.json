@@ -1,0 +1,35 @@
+{
+ "id": 14,
+ "slug": "longest-common-prefix",
+ "title": "最长公共前缀",
+ "difficulty": "简单",
+ "kind": "func",
+ "func": "longestCommonPrefix",
+ "params": [
+  "strings"
+ ],
+ "ret": "string",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     "flower",
+     "flow",
+     "flight"
+    ]
+   ],
+   "expected": "fl"
+  },
+  {
+   "args": [
+    [
+     "dog",
+     "racecar",
+     "car"
+    ]
+   ],
+   "expected": ""
+  }
+ ]
+}

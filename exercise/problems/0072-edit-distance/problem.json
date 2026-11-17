@@ -1,0 +1,30 @@
+{
+ "id": 72,
+ "slug": "edit-distance",
+ "title": "编辑距离",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "minDistance",
+ "params": [
+  "string",
+  "string"
+ ],
+ "ret": "int",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    "horse",
+    "ros"
+   ],
+   "expected": 3
+  },
+  {
+   "args": [
+    "intention",
+    "execution"
+   ],
+   "expected": 5
+  }
+ ]
+}

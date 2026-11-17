@@ -1,0 +1,33 @@
+{
+ "id": 13,
+ "slug": "roman-to-integer",
+ "title": "罗马数字转整数",
+ "difficulty": "简单",
+ "kind": "func",
+ "func": "romanToInt",
+ "params": [
+  "string"
+ ],
+ "ret": "int",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    "III"
+   ],
+   "expected": 3
+  },
+  {
+   "args": [
+    "LVIII"
+   ],
+   "expected": 58
+  },
+  {
+   "args": [
+    "MCMXCIV"
+   ],
+   "expected": 1994
+  }
+ ]
+}

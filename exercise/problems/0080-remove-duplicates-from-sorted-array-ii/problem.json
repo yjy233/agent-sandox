@@ -1,0 +1,67 @@
+{
+ "id": 80,
+ "slug": "remove-duplicates-from-sorted-array-ii",
+ "title": "删除有序数组中的重复项 II",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "removeDuplicates",
+ "params": [
+  "ints"
+ ],
+ "ret": "int",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     1,
+     1,
+     1,
+     2,
+     2,
+     3
+    ]
+   ],
+   "expected": [
+    5,
+    [
+     1,
+     1,
+     2,
+     2,
+     3
+    ]
+   ]
+  },
+  {
+   "args": [
+    [
+     0,
+     0,
+     1,
+     1,
+     1,
+     1,
+     2,
+     3,
+     3
+    ]
+   ],
+   "expected": [
+    7,
+    [
+     0,
+     0,
+     1,
+     1,
+     2,
+     3,
+     3
+    ]
+   ]
+  }
+ ],
+ "out": {
+  "ret_prefix": 0
+ }
+}

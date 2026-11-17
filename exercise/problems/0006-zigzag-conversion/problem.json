@@ -1,0 +1,37 @@
+{
+ "id": 6,
+ "slug": "zigzag-conversion",
+ "title": "Z 字形变换",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "convert",
+ "params": [
+  "string",
+  "int"
+ ],
+ "ret": "string",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    "PAYPALISHIRING",
+    3
+   ],
+   "expected": "PAHNAPLSIIGYIR"
+  },
+  {
+   "args": [
+    "PAYPALISHIRING",
+    4
+   ],
+   "expected": "PINALSIGYAHRPI"
+  },
+  {
+   "args": [
+    "A",
+    1
+   ],
+   "expected": "A"
+  }
+ ]
+}

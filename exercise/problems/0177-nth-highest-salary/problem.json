@@ -1,0 +1,47 @@
+{
+ "id": 177,
+ "slug": "nth-highest-salary",
+ "title": "第N高的薪水",
+ "difficulty": "中等",
+ "kind": "sql",
+ "func": null,
+ "params": [],
+ "ret": "void",
+ "compare": "exact",
+ "cases": [
+  {
+   "setup": "CREATE TABLE Employee (id INT, salary INT);INSERT INTO Employee VALUES (1,100),(2,200),(3,300);",
+   "params": {
+    "N": 2
+   },
+   "expected": [
+    [
+     200
+    ]
+   ]
+  },
+  {
+   "setup": "CREATE TABLE Employee (id INT, salary INT);INSERT INTO Employee VALUES (1,100),(2,200),(3,300);",
+   "params": {
+    "N": 1
+   },
+   "expected": [
+    [
+     300
+    ]
+   ]
+  },
+  {
+   "setup": "CREATE TABLE Employee (id INT, salary INT);INSERT INTO Employee VALUES (1,100),(2,200),(3,300);",
+   "params": {
+    "N": 4
+   },
+   "expected": [
+    [
+     null
+    ]
+   ]
+  }
+ ],
+ "note": "solution.sql 中用 {{N}} 占位，判题时替换为用例的 N；输出第 N 高薪水（去重），不存在为 NULL"
+}

@@ -1,0 +1,41 @@
+{
+ "id": 131,
+ "slug": "palindrome-partitioning",
+ "title": "分割回文串",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "partition",
+ "params": [
+  "string"
+ ],
+ "ret": "stringss",
+ "compare": "unordered",
+ "cases": [
+  {
+   "args": [
+    "aab"
+   ],
+   "expected": [
+    [
+     "a",
+     "a",
+     "b"
+    ],
+    [
+     "aa",
+     "b"
+    ]
+   ]
+  },
+  {
+   "args": [
+    "a"
+   ],
+   "expected": [
+    [
+     "a"
+    ]
+   ]
+  }
+ ]
+}

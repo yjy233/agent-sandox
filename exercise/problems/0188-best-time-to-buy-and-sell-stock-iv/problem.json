@@ -1,0 +1,41 @@
+{
+ "id": 188,
+ "slug": "best-time-to-buy-and-sell-stock-iv",
+ "title": "买卖股票的最佳时机 IV",
+ "difficulty": "困难",
+ "kind": "func",
+ "func": "maxProfit",
+ "params": [
+  "int",
+  "ints"
+ ],
+ "ret": "int",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    2,
+    [
+     2,
+     4,
+     1
+    ]
+   ],
+   "expected": 2
+  },
+  {
+   "args": [
+    2,
+    [
+     3,
+     2,
+     6,
+     5,
+     0,
+     3
+    ]
+   ],
+   "expected": 7
+  }
+ ]
+}

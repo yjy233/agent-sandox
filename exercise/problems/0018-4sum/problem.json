@@ -1,0 +1,69 @@
+{
+ "id": 18,
+ "slug": "4sum",
+ "title": "四数之和",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "fourSum",
+ "params": [
+  "ints",
+  "int"
+ ],
+ "ret": "intss",
+ "compare": "unordered_deep",
+ "cases": [
+  {
+   "args": [
+    [
+     1,
+     0,
+     -1,
+     0,
+     -2,
+     2
+    ],
+    0
+   ],
+   "expected": [
+    [
+     -2,
+     -1,
+     1,
+     2
+    ],
+    [
+     -2,
+     0,
+     0,
+     2
+    ],
+    [
+     -1,
+     0,
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "args": [
+    [
+     2,
+     2,
+     2,
+     2,
+     2
+    ],
+    8
+   ],
+   "expected": [
+    [
+     2,
+     2,
+     2,
+     2
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "id": 110,
+ "slug": "balanced-binary-tree",
+ "title": "平衡二叉树",
+ "difficulty": "简单",
+ "kind": "func",
+ "func": "isBalanced",
+ "params": [
+  "tree"
+ ],
+ "ret": "bool",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     3,
+     9,
+     20,
+     null,
+     null,
+     15,
+     7
+    ]
+   ],
+   "expected": true
+  },
+  {
+   "args": [
+    [
+     1,
+     2,
+     2,
+     3,
+     3,
+     null,
+     null,
+     4,
+     4
+    ]
+   ],
+   "expected": false
+  }
+ ]
+}

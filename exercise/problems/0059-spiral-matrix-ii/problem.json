@@ -1,0 +1,47 @@
+{
+ "id": 59,
+ "slug": "spiral-matrix-ii",
+ "title": "螺旋矩阵 II",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "generateMatrix",
+ "params": [
+  "int"
+ ],
+ "ret": "intss",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    3
+   ],
+   "expected": [
+    [
+     1,
+     2,
+     3
+    ],
+    [
+     8,
+     9,
+     4
+    ],
+    [
+     7,
+     6,
+     5
+    ]
+   ]
+  },
+  {
+   "args": [
+    1
+   ],
+   "expected": [
+    [
+     1
+    ]
+   ]
+  }
+ ]
+}

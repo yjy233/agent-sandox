@@ -1,0 +1,49 @@
+{
+ "id": 5,
+ "slug": "longest-palindromic-substring",
+ "title": "最长回文子串",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "longestPalindrome",
+ "params": [
+  "string"
+ ],
+ "ret": "string",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    "babad"
+   ],
+   "expected": {
+    "any": [
+     "bab",
+     "aba"
+    ]
+   }
+  },
+  {
+   "args": [
+    "cbbd"
+   ],
+   "expected": "bb"
+  },
+  {
+   "args": [
+    "a"
+   ],
+   "expected": "a"
+  },
+  {
+   "args": [
+    "ac"
+   ],
+   "expected": {
+    "any": [
+     "a",
+     "c"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "id": 194,
+ "slug": "transpose-file",
+ "title": "转置文件",
+ "difficulty": "中等",
+ "kind": "shell",
+ "func": null,
+ "params": [],
+ "ret": "void",
+ "compare": "exact",
+ "cases": [
+  {
+   "files": {
+    "file.txt": "name age\nalice 21\nryan 30\n"
+   },
+   "expected": "name alice ryan\nage 21 30\n"
+  }
+ ],
+ "note": "读取 file.txt，转置行列（每行列数相同）"
+}

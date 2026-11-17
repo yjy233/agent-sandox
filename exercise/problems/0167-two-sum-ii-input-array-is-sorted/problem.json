@@ -1,0 +1,59 @@
+{
+ "id": 167,
+ "slug": "two-sum-ii-input-array-is-sorted",
+ "title": "两数之和 II - 输入有序数组",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "twoSum",
+ "params": [
+  "ints",
+  "int"
+ ],
+ "ret": "ints",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     2,
+     7,
+     11,
+     15
+    ],
+    9
+   ],
+   "expected": [
+    1,
+    2
+   ]
+  },
+  {
+   "args": [
+    [
+     2,
+     3,
+     4
+    ],
+    6
+   ],
+   "expected": [
+    1,
+    3
+   ]
+  },
+  {
+   "args": [
+    [
+     -1,
+     0
+    ],
+    -1
+   ],
+   "expected": [
+    1,
+    2
+   ]
+  }
+ ],
+ "note": "返回 1-based 下标"
+}

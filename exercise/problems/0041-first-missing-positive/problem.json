@@ -1,0 +1,48 @@
+{
+ "id": 41,
+ "slug": "first-missing-positive",
+ "title": "缺失的第一个正数",
+ "difficulty": "困难",
+ "kind": "func",
+ "func": "firstMissingPositive",
+ "params": [
+  "ints"
+ ],
+ "ret": "int",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     1,
+     2,
+     0
+    ]
+   ],
+   "expected": 3
+  },
+  {
+   "args": [
+    [
+     3,
+     4,
+     -1,
+     1
+    ]
+   ],
+   "expected": 2
+  },
+  {
+   "args": [
+    [
+     7,
+     8,
+     9,
+     11,
+     12
+    ]
+   ],
+   "expected": 1
+  }
+ ]
+}

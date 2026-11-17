@@ -1,0 +1,61 @@
+{
+ "id": 1,
+ "slug": "two-sum",
+ "title": "两数之和",
+ "difficulty": "简单",
+ "kind": "func",
+ "func": "twoSum",
+ "params": [
+  "ints",
+  "int"
+ ],
+ "ret": "ints",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     2,
+     7,
+     11,
+     15
+    ],
+    9
+   ],
+   "expected": [
+    0,
+    1
+   ],
+   "compare": "unordered"
+  },
+  {
+   "args": [
+    [
+     3,
+     2,
+     4
+    ],
+    6
+   ],
+   "expected": [
+    1,
+    2
+   ],
+   "compare": "unordered"
+  },
+  {
+   "args": [
+    [
+     3,
+     3
+    ],
+    6
+   ],
+   "expected": [
+    0,
+    1
+   ],
+   "compare": "unordered"
+  }
+ ]
+}

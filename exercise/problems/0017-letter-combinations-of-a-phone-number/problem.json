@@ -1,0 +1,47 @@
+{
+ "id": 17,
+ "slug": "letter-combinations-of-a-phone-number",
+ "title": "电话号码的字母组合",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "letterCombinations",
+ "params": [
+  "string"
+ ],
+ "ret": "strings",
+ "compare": "unordered",
+ "cases": [
+  {
+   "args": [
+    "23"
+   ],
+   "expected": [
+    "ad",
+    "ae",
+    "af",
+    "bd",
+    "be",
+    "bf",
+    "cd",
+    "ce",
+    "cf"
+   ]
+  },
+  {
+   "args": [
+    ""
+   ],
+   "expected": []
+  },
+  {
+   "args": [
+    "2"
+   ],
+   "expected": [
+    "a",
+    "b",
+    "c"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "id": 66,
+ "slug": "plus-one",
+ "title": "加一",
+ "difficulty": "简单",
+ "kind": "func",
+ "func": "plusOne",
+ "params": [
+  "ints"
+ ],
+ "ret": "ints",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     1,
+     2,
+     3
+    ]
+   ],
+   "expected": [
+    1,
+    2,
+    4
+   ]
+  },
+  {
+   "args": [
+    [
+     4,
+     3,
+     2,
+     1
+    ]
+   ],
+   "expected": [
+    4,
+    3,
+    2,
+    2
+   ]
+  },
+  {
+   "args": [
+    [
+     9
+    ]
+   ],
+   "expected": [
+    1,
+    0
+   ]
+  }
+ ]
+}

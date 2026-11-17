@@ -1,0 +1,80 @@
+{
+ "id": 138,
+ "slug": "copy-list-with-random-pointer",
+ "title": "随机链表的复制",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "copyRandomList",
+ "params": [
+  "randomlist"
+ ],
+ "ret": "randomlist",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     [
+      7,
+      1,
+      -1
+     ],
+     [
+      13,
+      2,
+      0
+     ],
+     [
+      11,
+      3,
+      4
+     ],
+     [
+      10,
+      4,
+      2
+     ],
+     [
+      1,
+      -1,
+      0
+     ]
+    ]
+   ],
+   "expected": [
+    [
+     7,
+     1,
+     -1
+    ],
+    [
+     13,
+     2,
+     0
+    ],
+    [
+     11,
+     3,
+     4
+    ],
+    [
+     10,
+     4,
+     2
+    ],
+    [
+     1,
+     -1,
+     0
+    ]
+   ]
+  },
+  {
+   "args": [
+    []
+   ],
+   "expected": []
+  }
+ ],
+ "note": "输入/输出格式: 每个节点 [val, next下标, random下标]，-1 表示 null；需深拷贝"
+}

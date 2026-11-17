@@ -1,0 +1,72 @@
+{
+ "id": 40,
+ "slug": "combination-sum-ii",
+ "title": "组合总和 II",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "combinationSum2",
+ "params": [
+  "ints",
+  "int"
+ ],
+ "ret": "intss",
+ "compare": "unordered_deep",
+ "cases": [
+  {
+   "args": [
+    [
+     10,
+     1,
+     2,
+     7,
+     6,
+     1,
+     5
+    ],
+    8
+   ],
+   "expected": [
+    [
+     1,
+     1,
+     6
+    ],
+    [
+     1,
+     2,
+     5
+    ],
+    [
+     1,
+     7
+    ],
+    [
+     2,
+     6
+    ]
+   ]
+  },
+  {
+   "args": [
+    [
+     2,
+     5,
+     2,
+     1,
+     2
+    ],
+    5
+   ],
+   "expected": [
+    [
+     1,
+     2,
+     2
+    ],
+    [
+     5
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "id": 86,
+ "slug": "partition-list",
+ "title": "分隔链表",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "partition",
+ "params": [
+  "list",
+  "int"
+ ],
+ "ret": "list",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     1,
+     4,
+     3,
+     2,
+     5,
+     2
+    ],
+    3
+   ],
+   "expected": [
+    1,
+    2,
+    2,
+    4,
+    3,
+    5
+   ]
+  },
+  {
+   "args": [
+    [
+     2,
+     1
+    ],
+    2
+   ],
+   "expected": [
+    1,
+    2
+   ]
+  }
+ ]
+}

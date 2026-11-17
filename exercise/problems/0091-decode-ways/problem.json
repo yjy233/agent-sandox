@@ -1,0 +1,45 @@
+{
+ "id": 91,
+ "slug": "decode-ways",
+ "title": "解码方法",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "numDecodings",
+ "params": [
+  "string"
+ ],
+ "ret": "int",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    "12"
+   ],
+   "expected": 2
+  },
+  {
+   "args": [
+    "226"
+   ],
+   "expected": 3
+  },
+  {
+   "args": [
+    "06"
+   ],
+   "expected": 0
+  },
+  {
+   "args": [
+    "0"
+   ],
+   "expected": 0
+  },
+  {
+   "args": [
+    "10"
+   ],
+   "expected": 1
+  }
+ ]
+}

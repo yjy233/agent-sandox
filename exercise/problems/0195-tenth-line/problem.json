@@ -1,0 +1,26 @@
+{
+ "id": 195,
+ "slug": "tenth-line",
+ "title": "第十行",
+ "difficulty": "简单",
+ "kind": "shell",
+ "func": null,
+ "params": [],
+ "ret": "void",
+ "compare": "exact",
+ "cases": [
+  {
+   "files": {
+    "file.txt": "Line 1\nLine 2\nLine 3\nLine 4\nLine 5\nLine 6\nLine 7\nLine 8\nLine 9\nLine 10\n"
+   },
+   "expected": "Line 10\n"
+  },
+  {
+   "files": {
+    "file.txt": "Line 1\nLine 2\nLine 3\nLine 4\nLine 5\n"
+   },
+   "expected": ""
+  }
+ ],
+ "note": "输出 file.txt 第十行；不足十行输出空"
+}

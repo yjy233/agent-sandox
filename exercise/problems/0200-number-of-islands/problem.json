@@ -1,0 +1,38 @@
+{
+ "id": 200,
+ "slug": "number-of-islands",
+ "title": "岛屿数量",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "numIslands",
+ "params": [
+  "grid"
+ ],
+ "ret": "int",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     "11110",
+     "11010",
+     "11000",
+     "00000"
+    ]
+   ],
+   "expected": 1
+  },
+  {
+   "args": [
+    [
+     "11000",
+     "11000",
+     "00100",
+     "00011"
+    ]
+   ],
+   "expected": 3
+  }
+ ],
+ "note": "网格用字符串数组表示，每行一个 '0'/'1' 字符串"
+}

@@ -1,0 +1,33 @@
+{
+ "id": 191,
+ "slug": "number-of-1-bits",
+ "title": "位1的个数",
+ "difficulty": "简单",
+ "kind": "func",
+ "func": "hammingWeight",
+ "params": [
+  "uint32"
+ ],
+ "ret": "int",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    11
+   ],
+   "expected": 3
+  },
+  {
+   "args": [
+    128
+   ],
+   "expected": 1
+  },
+  {
+   "args": [
+    4294967293
+   ],
+   "expected": 31
+  }
+ ]
+}

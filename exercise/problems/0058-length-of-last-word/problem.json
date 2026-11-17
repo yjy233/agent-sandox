@@ -1,0 +1,33 @@
+{
+ "id": 58,
+ "slug": "length-of-last-word",
+ "title": "最后一个单词的长度",
+ "difficulty": "简单",
+ "kind": "func",
+ "func": "lengthOfLastWord",
+ "params": [
+  "string"
+ ],
+ "ret": "int",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    "Hello World"
+   ],
+   "expected": 5
+  },
+  {
+   "args": [
+    "   fly me   to   the moon  "
+   ],
+   "expected": 4
+  },
+  {
+   "args": [
+    "luffy is still joyboy"
+   ],
+   "expected": 6
+  }
+ ]
+}

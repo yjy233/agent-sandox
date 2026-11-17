@@ -1,0 +1,17 @@
+{
+ "id": "LCP15",
+ "slug": "you-le-yuan-de-mi-gong",
+ "title": "游乐园的迷宫",
+ "difficulty": "困难",
+ "kind": "func",
+ "func": "visitOrder",
+ "params": [
+  "int",
+  "intss",
+  "ints"
+ ],
+ "ret": "ints",
+ "compare": "exact",
+ "cases": [],
+ "note": "visitOrder(N, roads, distanceLimit)；请核对力扣签名并自行补充用例"
+}

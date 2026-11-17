@@ -1,0 +1,50 @@
+{
+ "id": 116,
+ "slug": "populating-next-right-pointers-in-each-node",
+ "title": "填充每个节点的下一个右侧节点指针",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "connect",
+ "params": [
+  "nexttree"
+ ],
+ "ret": "nexttree",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ]
+   ],
+   "expected": [
+    [
+     1
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     4,
+     5,
+     6,
+     7
+    ]
+   ]
+  },
+  {
+   "args": [
+    []
+   ],
+   "expected": []
+  }
+ ],
+ "note": "Node 含 val/left/right/next；输出按层序列化 next 链：[[1],[2,3],[4,5,6,7]]"
+}

@@ -1,0 +1,20 @@
+{
+ "id": 192,
+ "slug": "word-frequency",
+ "title": "统计词频",
+ "difficulty": "中等",
+ "kind": "shell",
+ "func": null,
+ "params": [],
+ "ret": "void",
+ "compare": "exact",
+ "cases": [
+  {
+   "files": {
+    "words.txt": "the day is sunny the the\nthe sunny is is\n"
+   },
+   "expected": "the 4\nis 3\nsunny 2\nday 1\n"
+  }
+ ],
+ "note": "读取 words.txt，按词频降序输出 '单词 次数'"
+}

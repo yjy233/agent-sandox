@@ -1,0 +1,52 @@
+{
+ "id": "LCP12",
+ "slug": "xiao-zhang-shua-ti-ji-hua",
+ "title": "小张刷题计划",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "splitArray",
+ "params": [
+  "ints",
+  "int"
+ ],
+ "ret": "int",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     1,
+     2,
+     3
+    ],
+    1
+   ],
+   "expected": 3
+  },
+  {
+   "args": [
+    [
+     1,
+     2,
+     3
+    ],
+    2
+   ],
+   "expected": 1
+  },
+  {
+   "args": [
+    [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    2
+   ],
+   "expected": 4
+  }
+ ],
+ "note": "把数组分成 m 段连续子数组，每段代价为段内和减去段内最大值，最小化最大段代价"
+}

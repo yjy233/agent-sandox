@@ -1,0 +1,32 @@
+{
+ "id": 187,
+ "slug": "repeated-dna-sequences",
+ "title": "重复的DNA序列",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "findRepeatedDnaSequences",
+ "params": [
+  "string"
+ ],
+ "ret": "strings",
+ "compare": "unordered",
+ "cases": [
+  {
+   "args": [
+    "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"
+   ],
+   "expected": [
+    "AAAAACCCCC",
+    "CCCCCAAAAA"
+   ]
+  },
+  {
+   "args": [
+    "AAAAAAAAAAAAA"
+   ],
+   "expected": [
+    "AAAAAAAAAA"
+   ]
+  }
+ ]
+}

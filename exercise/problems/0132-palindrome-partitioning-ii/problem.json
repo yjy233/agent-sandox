@@ -1,0 +1,33 @@
+{
+ "id": 132,
+ "slug": "palindrome-partitioning-ii",
+ "title": "分割回文串 II",
+ "difficulty": "困难",
+ "kind": "func",
+ "func": "minCut",
+ "params": [
+  "string"
+ ],
+ "ret": "int",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    "aab"
+   ],
+   "expected": 1
+  },
+  {
+   "args": [
+    "a"
+   ],
+   "expected": 0
+  },
+  {
+   "args": [
+    "ab"
+   ],
+   "expected": 1
+  }
+ ]
+}

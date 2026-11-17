@@ -1,0 +1,45 @@
+{
+ "id": 12,
+ "slug": "integer-to-roman",
+ "title": "整数转罗马数字",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "intToRoman",
+ "params": [
+  "int"
+ ],
+ "ret": "string",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    3
+   ],
+   "expected": "III"
+  },
+  {
+   "args": [
+    4
+   ],
+   "expected": "IV"
+  },
+  {
+   "args": [
+    9
+   ],
+   "expected": "IX"
+  },
+  {
+   "args": [
+    58
+   ],
+   "expected": "LVIII"
+  },
+  {
+   "args": [
+    1994
+   ],
+   "expected": "MCMXCIV"
+  }
+ ]
+}

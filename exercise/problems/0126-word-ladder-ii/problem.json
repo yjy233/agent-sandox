@@ -1,0 +1,61 @@
+{
+ "id": 126,
+ "slug": "word-ladder-ii",
+ "title": "单词接龙 II",
+ "difficulty": "困难",
+ "kind": "func",
+ "func": "findLadders",
+ "params": [
+  "string",
+  "string",
+  "strings"
+ ],
+ "ret": "stringss",
+ "compare": "unordered",
+ "cases": [
+  {
+   "args": [
+    "hit",
+    "cog",
+    [
+     "hot",
+     "dot",
+     "dog",
+     "lot",
+     "log",
+     "cog"
+    ]
+   ],
+   "expected": [
+    [
+     "hit",
+     "hot",
+     "dot",
+     "dog",
+     "cog"
+    ],
+    [
+     "hit",
+     "hot",
+     "lot",
+     "log",
+     "cog"
+    ]
+   ]
+  },
+  {
+   "args": [
+    "hit",
+    "cog",
+    [
+     "hot",
+     "dot",
+     "dog",
+     "lot",
+     "log"
+    ]
+   ],
+   "expected": []
+  }
+ ]
+}

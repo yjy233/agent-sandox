@@ -1,0 +1,40 @@
+{
+ "id": 93,
+ "slug": "restore-ip-addresses",
+ "title": "复原 IP 地址",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "restoreIpAddresses",
+ "params": [
+  "string"
+ ],
+ "ret": "strings",
+ "compare": "unordered",
+ "cases": [
+  {
+   "args": [
+    "25525511135"
+   ],
+   "expected": [
+    "255.255.11.135",
+    "255.255.111.35"
+   ]
+  },
+  {
+   "args": [
+    "0000"
+   ],
+   "expected": [
+    "0.0.0.0"
+   ]
+  },
+  {
+   "args": [
+    "1111"
+   ],
+   "expected": [
+    "1.1.1.1"
+   ]
+  }
+ ]
+}

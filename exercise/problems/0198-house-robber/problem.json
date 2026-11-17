@@ -1,0 +1,38 @@
+{
+ "id": 198,
+ "slug": "house-robber",
+ "title": "打家劫舍",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "rob",
+ "params": [
+  "ints"
+ ],
+ "ret": "int",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     1,
+     2,
+     3,
+     1
+    ]
+   ],
+   "expected": 4
+  },
+  {
+   "args": [
+    [
+     2,
+     7,
+     9,
+     3,
+     1
+    ]
+   ],
+   "expected": 12
+  }
+ ]
+}

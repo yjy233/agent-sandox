@@ -1,0 +1,61 @@
+{
+ "id": 114,
+ "slug": "flatten-binary-tree-to-linked-list",
+ "title": "二叉树展开为链表",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "flatten",
+ "params": [
+  "tree"
+ ],
+ "ret": "void",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     1,
+     2,
+     5,
+     3,
+     4,
+     null,
+     6
+    ]
+   ],
+   "expected": [
+    1,
+    null,
+    2,
+    null,
+    3,
+    null,
+    4,
+    null,
+    5,
+    null,
+    6
+   ]
+  },
+  {
+   "args": [
+    []
+   ],
+   "expected": []
+  },
+  {
+   "args": [
+    [
+     0
+    ]
+   ],
+   "expected": [
+    0
+   ]
+  }
+ ],
+ "out": {
+  "arg": 0
+ },
+ "note": "原地展开：所有节点的 left 置空，right 指向先序遍历的下一个节点"
+}

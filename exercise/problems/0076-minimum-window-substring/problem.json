@@ -1,0 +1,37 @@
+{
+ "id": 76,
+ "slug": "minimum-window-substring",
+ "title": "最小覆盖子串",
+ "difficulty": "困难",
+ "kind": "func",
+ "func": "minWindow",
+ "params": [
+  "string",
+  "string"
+ ],
+ "ret": "string",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    "ADOBECODEBANC",
+    "ABC"
+   ],
+   "expected": "BANC"
+  },
+  {
+   "args": [
+    "a",
+    "a"
+   ],
+   "expected": "a"
+  },
+  {
+   "args": [
+    "a",
+    "aa"
+   ],
+   "expected": ""
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "id": 71,
+ "slug": "simplify-path",
+ "title": "简化路径",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "simplifyPath",
+ "params": [
+  "string"
+ ],
+ "ret": "string",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    "/home/"
+   ],
+   "expected": "/home"
+  },
+  {
+   "args": [
+    "/../"
+   ],
+   "expected": "/"
+  },
+  {
+   "args": [
+    "/home//foo/"
+   ],
+   "expected": "/home/foo"
+  },
+  {
+   "args": [
+    "/a/./b/../../c/"
+   ],
+   "expected": "/c"
+  }
+ ]
+}

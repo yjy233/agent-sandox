@@ -1,0 +1,40 @@
+{
+ "id": 11,
+ "slug": "container-with-most-water",
+ "title": "盛最多水的容器",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "maxArea",
+ "params": [
+  "ints"
+ ],
+ "ret": "int",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     1,
+     8,
+     6,
+     2,
+     5,
+     4,
+     8,
+     3,
+     7
+    ]
+   ],
+   "expected": 49
+  },
+  {
+   "args": [
+    [
+     1,
+     1
+    ]
+   ],
+   "expected": 1
+  }
+ ]
+}

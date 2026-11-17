@@ -1,0 +1,39 @@
+{
+ "id": 168,
+ "slug": "excel-sheet-column-title",
+ "title": "Excel 表列名称",
+ "difficulty": "简单",
+ "kind": "func",
+ "func": "convertToTitle",
+ "params": [
+  "int"
+ ],
+ "ret": "string",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    1
+   ],
+   "expected": "A"
+  },
+  {
+   "args": [
+    28
+   ],
+   "expected": "AB"
+  },
+  {
+   "args": [
+    701
+   ],
+   "expected": "ZY"
+  },
+  {
+   "args": [
+    2147483647
+   ],
+   "expected": "FXSHRXW"
+  }
+ ]
+}

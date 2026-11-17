@@ -1,0 +1,41 @@
+{
+ "id": 4,
+ "slug": "median-of-two-sorted-arrays",
+ "title": "寻找两个正序数组的中位数",
+ "difficulty": "困难",
+ "kind": "func",
+ "func": "findMedianSortedArrays",
+ "params": [
+  "ints",
+  "ints"
+ ],
+ "ret": "double",
+ "compare": "float",
+ "cases": [
+  {
+   "args": [
+    [
+     1,
+     3
+    ],
+    [
+     2
+    ]
+   ],
+   "expected": 2.0
+  },
+  {
+   "args": [
+    [
+     1,
+     2
+    ],
+    [
+     3,
+     4
+    ]
+   ],
+   "expected": 2.5
+  }
+ ]
+}

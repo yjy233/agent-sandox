@@ -1,0 +1,51 @@
+{
+ "id": 44,
+ "slug": "wildcard-matching",
+ "title": "通配符匹配",
+ "difficulty": "困难",
+ "kind": "func",
+ "func": "isMatch",
+ "params": [
+  "string",
+  "string"
+ ],
+ "ret": "bool",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    "aa",
+    "a"
+   ],
+   "expected": false
+  },
+  {
+   "args": [
+    "aa",
+    "*"
+   ],
+   "expected": true
+  },
+  {
+   "args": [
+    "cb",
+    "?a"
+   ],
+   "expected": false
+  },
+  {
+   "args": [
+    "adceb",
+    "*a*b"
+   ],
+   "expected": true
+  },
+  {
+   "args": [
+    "acdcb",
+    "a*c?b"
+   ],
+   "expected": false
+  }
+ ]
+}

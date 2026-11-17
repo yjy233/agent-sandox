@@ -1,0 +1,33 @@
+{
+ "id": 9,
+ "slug": "palindrome-number",
+ "title": "回文数",
+ "difficulty": "简单",
+ "kind": "func",
+ "func": "isPalindrome",
+ "params": [
+  "int"
+ ],
+ "ret": "bool",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    121
+   ],
+   "expected": true
+  },
+  {
+   "args": [
+    -121
+   ],
+   "expected": false
+  },
+  {
+   "args": [
+    10
+   ],
+   "expected": false
+  }
+ ]
+}

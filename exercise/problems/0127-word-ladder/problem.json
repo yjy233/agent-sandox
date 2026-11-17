@@ -1,0 +1,46 @@
+{
+ "id": 127,
+ "slug": "word-ladder",
+ "title": "单词接龙",
+ "difficulty": "困难",
+ "kind": "func",
+ "func": "ladderLength",
+ "params": [
+  "string",
+  "string",
+  "strings"
+ ],
+ "ret": "int",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    "hit",
+    "cog",
+    [
+     "hot",
+     "dot",
+     "dog",
+     "lot",
+     "log",
+     "cog"
+    ]
+   ],
+   "expected": 5
+  },
+  {
+   "args": [
+    "hit",
+    "cog",
+    [
+     "hot",
+     "dot",
+     "dog",
+     "lot",
+     "log"
+    ]
+   ],
+   "expected": 0
+  }
+ ]
+}

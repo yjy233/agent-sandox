@@ -1,0 +1,53 @@
+{
+ "id": 143,
+ "slug": "reorder-list",
+ "title": "重排链表",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "reorderList",
+ "params": [
+  "list"
+ ],
+ "ret": "void",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     1,
+     2,
+     3,
+     4
+    ]
+   ],
+   "expected": [
+    1,
+    4,
+    2,
+    3
+   ]
+  },
+  {
+   "args": [
+    [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   ],
+   "expected": [
+    1,
+    5,
+    2,
+    4,
+    3
+   ]
+  }
+ ],
+ "out": {
+  "arg": 0
+ },
+ "note": "原地重排 L0→Ln→L1→Ln-1→…"
+}

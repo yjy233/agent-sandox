@@ -1,0 +1,52 @@
+{
+ "id": 63,
+ "slug": "unique-paths-ii",
+ "title": "不同路径 II",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "uniquePathsWithObstacles",
+ "params": [
+  "intss"
+ ],
+ "ret": "int",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     [
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      1,
+      0
+     ],
+     [
+      0,
+      0,
+      0
+     ]
+    ]
+   ],
+   "expected": 2
+  },
+  {
+   "args": [
+    [
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      0
+     ]
+    ]
+   ],
+   "expected": 1
+  }
+ ]
+}

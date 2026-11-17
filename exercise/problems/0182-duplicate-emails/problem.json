@@ -1,0 +1,22 @@
+{
+ "id": 182,
+ "slug": "duplicate-emails",
+ "title": "查找重复的电子邮箱",
+ "difficulty": "简单",
+ "kind": "sql",
+ "func": null,
+ "params": [],
+ "ret": "void",
+ "compare": "exact",
+ "cases": [
+  {
+   "setup": "CREATE TABLE Person (id INT, email VARCHAR(100));INSERT INTO Person VALUES (1,'a@b.com'),(2,'c@d.com'),(3,'a@b.com');",
+   "expected": [
+    [
+     "a@b.com"
+    ]
+   ]
+  }
+ ],
+ "note": "输出列: Email（去重）"
+}

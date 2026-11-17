@@ -1,0 +1,45 @@
+{
+ "id": 179,
+ "slug": "largest-number",
+ "title": "最大数",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "largestNumber",
+ "params": [
+  "ints"
+ ],
+ "ret": "string",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     10,
+     2
+    ]
+   ],
+   "expected": "210"
+  },
+  {
+   "args": [
+    [
+     3,
+     30,
+     34,
+     5,
+     9
+    ]
+   ],
+   "expected": "9534330"
+  },
+  {
+   "args": [
+    [
+     0,
+     0
+    ]
+   ],
+   "expected": "0"
+  }
+ ]
+}

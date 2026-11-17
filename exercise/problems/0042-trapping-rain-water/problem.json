@@ -1,0 +1,47 @@
+{
+ "id": 42,
+ "slug": "trapping-rain-water",
+ "title": "接雨水",
+ "difficulty": "困难",
+ "kind": "func",
+ "func": "trap",
+ "params": [
+  "ints"
+ ],
+ "ret": "int",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     0,
+     1,
+     0,
+     2,
+     1,
+     0,
+     1,
+     3,
+     2,
+     1,
+     2,
+     1
+    ]
+   ],
+   "expected": 6
+  },
+  {
+   "args": [
+    [
+     4,
+     2,
+     0,
+     3,
+     2,
+     5
+    ]
+   ],
+   "expected": 9
+  }
+ ]
+}

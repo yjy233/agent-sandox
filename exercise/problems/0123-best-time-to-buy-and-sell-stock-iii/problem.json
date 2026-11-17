@@ -1,0 +1,54 @@
+{
+ "id": 123,
+ "slug": "best-time-to-buy-and-sell-stock-iii",
+ "title": "买卖股票的最佳时机 III",
+ "difficulty": "困难",
+ "kind": "func",
+ "func": "maxProfit",
+ "params": [
+  "ints"
+ ],
+ "ret": "int",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     3,
+     3,
+     5,
+     0,
+     0,
+     3,
+     1,
+     4
+    ]
+   ],
+   "expected": 6
+  },
+  {
+   "args": [
+    [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   ],
+   "expected": 4
+  },
+  {
+   "args": [
+    [
+     7,
+     6,
+     4,
+     3,
+     1
+    ]
+   ],
+   "expected": 0
+  }
+ ]
+}

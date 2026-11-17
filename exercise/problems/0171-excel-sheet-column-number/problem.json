@@ -1,0 +1,33 @@
+{
+ "id": 171,
+ "slug": "excel-sheet-column-number",
+ "title": "Excel 表列序号",
+ "difficulty": "简单",
+ "kind": "func",
+ "func": "titleToNumber",
+ "params": [
+  "string"
+ ],
+ "ret": "int",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    "A"
+   ],
+   "expected": 1
+  },
+  {
+   "args": [
+    "AB"
+   ],
+   "expected": 28
+  },
+  {
+   "args": [
+    "ZY"
+   ],
+   "expected": 701
+  }
+ ]
+}

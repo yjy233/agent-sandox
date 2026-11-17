@@ -1,0 +1,15 @@
+{
+ "id": "LCP13",
+ "slug": "xun-bao",
+ "title": "寻宝",
+ "difficulty": "困难",
+ "kind": "func",
+ "func": "minimumSteps",
+ "params": [
+  "grid"
+ ],
+ "ret": "int",
+ "compare": "exact",
+ "cases": [],
+ "note": "maze 为字符串数组（S 起点 T 终点 O 空地 # 墙 M 机关）；官方用例较复杂，请自行补充到 problem.json"
+}

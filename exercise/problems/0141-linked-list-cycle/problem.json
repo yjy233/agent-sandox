@@ -1,0 +1,47 @@
+{
+ "id": 141,
+ "slug": "linked-list-cycle",
+ "title": "环形链表",
+ "difficulty": "简单",
+ "kind": "func",
+ "func": "hasCycle",
+ "params": [
+  "cyclelist"
+ ],
+ "ret": "bool",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     3,
+     2,
+     0,
+     -4
+    ],
+    1
+   ],
+   "expected": true
+  },
+  {
+   "args": [
+    [
+     1,
+     2
+    ],
+    0
+   ],
+   "expected": true
+  },
+  {
+   "args": [
+    [
+     1
+    ],
+    -1
+   ],
+   "expected": false
+  }
+ ],
+ "note": "输入 [节点值数组, pos]：pos 为尾节点指向的下标，-1 表示无环"
+}

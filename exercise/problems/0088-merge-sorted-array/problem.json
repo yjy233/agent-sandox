@@ -1,0 +1,77 @@
+{
+ "id": 88,
+ "slug": "merge-sorted-array",
+ "title": "合并两个有序数组",
+ "difficulty": "简单",
+ "kind": "func",
+ "func": "merge",
+ "params": [
+  "ints",
+  "int",
+  "ints",
+  "int"
+ ],
+ "ret": "void",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     1,
+     2,
+     3,
+     0,
+     0,
+     0
+    ],
+    3,
+    [
+     2,
+     5,
+     6
+    ],
+    3
+   ],
+   "expected": [
+    1,
+    2,
+    2,
+    3,
+    5,
+    6
+   ]
+  },
+  {
+   "args": [
+    [
+     1
+    ],
+    1,
+    [],
+    0
+   ],
+   "expected": [
+    1
+   ]
+  },
+  {
+   "args": [
+    [
+     0
+    ],
+    0,
+    [
+     1
+    ],
+    1
+   ],
+   "expected": [
+    1
+   ]
+  }
+ ],
+ "out": {
+  "arg": 0
+ },
+ "note": "原地合并到 nums1"
+}

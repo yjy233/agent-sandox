@@ -1,0 +1,52 @@
+{
+ "id": 156,
+ "slug": "binary-tree-upside-down",
+ "title": "上下翻转二叉树",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "upsideDownBinaryTree",
+ "params": [
+  "tree"
+ ],
+ "ret": "tree",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   ],
+   "expected": [
+    4,
+    5,
+    2,
+    null,
+    null,
+    3,
+    1
+   ]
+  },
+  {
+   "args": [
+    []
+   ],
+   "expected": []
+  },
+  {
+   "args": [
+    [
+     1
+    ]
+   ],
+   "expected": [
+    1
+   ]
+  }
+ ],
+ "note": "原题锁定题；规则：最左节点成为新根，原父节点变为右子节点，原右兄弟变为左子节点"
+}

@@ -1,0 +1,44 @@
+{
+ "id": 51,
+ "slug": "n-queens",
+ "title": "N 皇后",
+ "difficulty": "困难",
+ "kind": "func",
+ "func": "solveNQueens",
+ "params": [
+  "int"
+ ],
+ "ret": "stringss",
+ "compare": "unordered",
+ "cases": [
+  {
+   "args": [
+    4
+   ],
+   "expected": [
+    [
+     ".Q..",
+     "...Q",
+     "Q...",
+     "..Q."
+    ],
+    [
+     "..Q.",
+     "Q...",
+     "...Q",
+     ".Q.."
+    ]
+   ]
+  },
+  {
+   "args": [
+    1
+   ],
+   "expected": [
+    [
+     "Q"
+    ]
+   ]
+  }
+ ]
+}

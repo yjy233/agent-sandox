@@ -1,0 +1,55 @@
+{
+ "id": 47,
+ "slug": "permutations-ii",
+ "title": "全排列 II",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "permuteUnique",
+ "params": [
+  "ints"
+ ],
+ "ret": "intss",
+ "compare": "unordered",
+ "cases": [
+  {
+   "args": [
+    [
+     1,
+     1,
+     2
+    ]
+   ],
+   "expected": [
+    [
+     1,
+     1,
+     2
+    ],
+    [
+     1,
+     2,
+     1
+    ],
+    [
+     2,
+     1,
+     1
+    ]
+   ]
+  },
+  {
+   "args": [
+    [
+     1,
+     1
+    ]
+   ],
+   "expected": [
+    [
+     1,
+     1
+    ]
+   ]
+  }
+ ]
+}

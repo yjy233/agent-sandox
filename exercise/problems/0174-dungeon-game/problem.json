@@ -1,0 +1,57 @@
+{
+ "id": 174,
+ "slug": "dungeon-game",
+ "title": "地下城游戏",
+ "difficulty": "困难",
+ "kind": "func",
+ "func": "calculateMinimumHP",
+ "params": [
+  "intss"
+ ],
+ "ret": "int",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     [
+      -2,
+      -3,
+      3
+     ],
+     [
+      -5,
+      -10,
+      1
+     ],
+     [
+      10,
+      30,
+      -5
+     ]
+    ]
+   ],
+   "expected": 7
+  },
+  {
+   "args": [
+    [
+     [
+      0
+     ]
+    ]
+   ],
+   "expected": 1
+  },
+  {
+   "args": [
+    [
+     [
+      -3
+     ]
+    ]
+   ],
+   "expected": 4
+  }
+ ]
+}

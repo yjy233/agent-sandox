@@ -1,0 +1,50 @@
+{
+ "id": 79,
+ "slug": "word-search",
+ "title": "单词搜索",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "exist",
+ "params": [
+  "grid",
+  "string"
+ ],
+ "ret": "bool",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     "ABCE",
+     "SFCS",
+     "ADEE"
+    ],
+    "ABCCED"
+   ],
+   "expected": true
+  },
+  {
+   "args": [
+    [
+     "ABCE",
+     "SFCS",
+     "ADEE"
+    ],
+    "SEE"
+   ],
+   "expected": true
+  },
+  {
+   "args": [
+    [
+     "ABCE",
+     "SFCS",
+     "ADEE"
+    ],
+    "ABCB"
+   ],
+   "expected": false
+  }
+ ],
+ "note": "棋盘用字符串数组表示，每行一个字符串"
+}

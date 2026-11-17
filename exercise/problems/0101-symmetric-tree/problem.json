@@ -1,0 +1,43 @@
+{
+ "id": 101,
+ "slug": "symmetric-tree",
+ "title": "对称二叉树",
+ "difficulty": "简单",
+ "kind": "func",
+ "func": "isSymmetric",
+ "params": [
+  "tree"
+ ],
+ "ret": "bool",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     1,
+     2,
+     2,
+     3,
+     4,
+     4,
+     3
+    ]
+   ],
+   "expected": true
+  },
+  {
+   "args": [
+    [
+     1,
+     2,
+     2,
+     null,
+     3,
+     null,
+     3
+    ]
+   ],
+   "expected": false
+  }
+ ]
+}

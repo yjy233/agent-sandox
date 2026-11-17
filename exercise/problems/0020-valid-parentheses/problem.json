@@ -1,0 +1,45 @@
+{
+ "id": 20,
+ "slug": "valid-parentheses",
+ "title": "有效的括号",
+ "difficulty": "简单",
+ "kind": "func",
+ "func": "isValid",
+ "params": [
+  "string"
+ ],
+ "ret": "bool",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    "()"
+   ],
+   "expected": true
+  },
+  {
+   "args": [
+    "()[]{}"
+   ],
+   "expected": true
+  },
+  {
+   "args": [
+    "(]"
+   ],
+   "expected": false
+  },
+  {
+   "args": [
+    "([)]"
+   ],
+   "expected": false
+  },
+  {
+   "args": [
+    "{[]}"
+   ],
+   "expected": true
+  }
+ ]
+}

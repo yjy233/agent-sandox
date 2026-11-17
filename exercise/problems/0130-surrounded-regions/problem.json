@@ -1,0 +1,45 @@
+{
+ "id": 130,
+ "slug": "surrounded-regions",
+ "title": "被围绕的区域",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "solve",
+ "params": [
+  "grid"
+ ],
+ "ret": "void",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     "XXXX",
+     "XOOX",
+     "XXOX",
+     "XOXX"
+    ]
+   ],
+   "expected": [
+    "XXXX",
+    "XXXX",
+    "XXXX",
+    "XOXX"
+   ]
+  },
+  {
+   "args": [
+    [
+     "X"
+    ]
+   ],
+   "expected": [
+    "X"
+   ]
+  }
+ ],
+ "out": {
+  "arg": 0
+ },
+ "note": "原地修改；字符串数组表示棋盘，修改时整行替换"
+}

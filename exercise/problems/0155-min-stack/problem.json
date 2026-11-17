@@ -1,0 +1,77 @@
+{
+ "id": 155,
+ "slug": "min-stack",
+ "title": "最小栈",
+ "difficulty": "中等",
+ "kind": "design",
+ "func": null,
+ "params": [],
+ "ret": "void",
+ "compare": "exact",
+ "cases": [
+  {
+   "ops": [
+    [
+     "MinStack"
+    ],
+    [
+     "push",
+     -2
+    ],
+    [
+     "push",
+     0
+    ],
+    [
+     "push",
+     -3
+    ],
+    [
+     "getMin"
+    ],
+    [
+     "pop"
+    ],
+    [
+     "top"
+    ],
+    [
+     "getMin"
+    ]
+   ],
+   "expected": [
+    null,
+    null,
+    null,
+    null,
+    -3,
+    null,
+    0,
+    -2
+   ]
+  }
+ ],
+ "class": "MinStack",
+ "ctor": [],
+ "methods": {
+  "push": {
+   "params": [
+    "int"
+   ],
+   "ret": "void"
+  },
+  "pop": {
+   "params": [],
+   "ret": "void"
+  },
+  "top": {
+   "params": [],
+   "ret": "int"
+  },
+  "getMin": {
+   "params": [],
+   "ret": "int"
+  }
+ },
+ "note": "设计题：所有操作 O(1)"
+}

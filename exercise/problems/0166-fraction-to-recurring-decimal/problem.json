@@ -1,0 +1,58 @@
+{
+ "id": 166,
+ "slug": "fraction-to-recurring-decimal",
+ "title": "分数到小数",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "fractionToDecimal",
+ "params": [
+  "long",
+  "long"
+ ],
+ "ret": "string",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    1,
+    2
+   ],
+   "expected": "0.5"
+  },
+  {
+   "args": [
+    2,
+    1
+   ],
+   "expected": "2"
+  },
+  {
+   "args": [
+    2,
+    3
+   ],
+   "expected": "0.(6)"
+  },
+  {
+   "args": [
+    4,
+    333
+   ],
+   "expected": "0.(012)"
+  },
+  {
+   "args": [
+    -50,
+    8
+   ],
+   "expected": "-6.25"
+  },
+  {
+   "args": [
+    7,
+    -12
+   ],
+   "expected": "-0.58(3)"
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "id": 107,
+ "slug": "binary-tree-level-order-traversal-ii",
+ "title": "二叉树的层序遍历 II",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "levelOrderBottom",
+ "params": [
+  "tree"
+ ],
+ "ret": "intss",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     3,
+     9,
+     20,
+     null,
+     null,
+     15,
+     7
+    ]
+   ],
+   "expected": [
+    [
+     15,
+     7
+    ],
+    [
+     9,
+     20
+    ],
+    [
+     3
+    ]
+   ]
+  },
+  {
+   "args": [
+    [
+     1
+    ]
+   ],
+   "expected": [
+    [
+     1
+    ]
+   ]
+  },
+  {
+   "args": [
+    []
+   ],
+   "expected": []
+  }
+ ]
+}

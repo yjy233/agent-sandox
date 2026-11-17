@@ -1,0 +1,53 @@
+{
+ "id": 68,
+ "slug": "text-justification",
+ "title": "文本左右对齐",
+ "difficulty": "困难",
+ "kind": "func",
+ "func": "fullJustify",
+ "params": [
+  "strings",
+  "int"
+ ],
+ "ret": "strings",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     "This",
+     "is",
+     "an",
+     "example",
+     "of",
+     "text",
+     "justification."
+    ],
+    16
+   ],
+   "expected": [
+    "This    is    an",
+    "example  of text",
+    "justification.  "
+   ]
+  },
+  {
+   "args": [
+    [
+     "What",
+     "must",
+     "be",
+     "acknowledgment",
+     "shall",
+     "be"
+    ],
+    16
+   ],
+   "expected": [
+    "What   must   be",
+    "acknowledgment  ",
+    "shall be        "
+   ]
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "id": 33,
+ "slug": "search-in-rotated-sorted-array",
+ "title": "搜索旋转排序数组",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "search",
+ "params": [
+  "ints",
+  "int"
+ ],
+ "ret": "int",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     4,
+     5,
+     6,
+     7,
+     0,
+     1,
+     2
+    ],
+    0
+   ],
+   "expected": 4
+  },
+  {
+   "args": [
+    [
+     4,
+     5,
+     6,
+     7,
+     0,
+     1,
+     2
+    ],
+    3
+   ],
+   "expected": -1
+  },
+  {
+   "args": [
+    [
+     1
+    ],
+    0
+   ],
+   "expected": -1
+  }
+ ]
+}

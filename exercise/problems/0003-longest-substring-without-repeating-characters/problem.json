@@ -1,0 +1,39 @@
+{
+ "id": 3,
+ "slug": "longest-substring-without-repeating-characters",
+ "title": "无重复字符的最长子串",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "lengthOfLongestSubstring",
+ "params": [
+  "string"
+ ],
+ "ret": "int",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    "abcabcbb"
+   ],
+   "expected": 3
+  },
+  {
+   "args": [
+    "bbbbb"
+   ],
+   "expected": 1
+  },
+  {
+   "args": [
+    "pwwkew"
+   ],
+   "expected": 3
+  },
+  {
+   "args": [
+    ""
+   ],
+   "expected": 0
+  }
+ ]
+}

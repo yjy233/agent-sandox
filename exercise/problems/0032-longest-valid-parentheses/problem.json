@@ -1,0 +1,33 @@
+{
+ "id": 32,
+ "slug": "longest-valid-parentheses",
+ "title": "最长有效括号",
+ "difficulty": "困难",
+ "kind": "func",
+ "func": "longestValidParentheses",
+ "params": [
+  "string"
+ ],
+ "ret": "int",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    "(()"
+   ],
+   "expected": 2
+  },
+  {
+   "args": [
+    ")()())"
+   ],
+   "expected": 4
+  },
+  {
+   "args": [
+    ""
+   ],
+   "expected": 0
+  }
+ ]
+}

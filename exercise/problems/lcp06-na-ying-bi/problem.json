@@ -1,0 +1,36 @@
+{
+ "id": "LCP06",
+ "slug": "na-ying-bi",
+ "title": "拿硬币",
+ "difficulty": "简单",
+ "kind": "func",
+ "func": "minCount",
+ "params": [
+  "ints"
+ ],
+ "ret": "int",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     4,
+     2,
+     1
+    ]
+   ],
+   "expected": 4
+  },
+  {
+   "args": [
+    [
+     2,
+     3,
+     10
+    ]
+   ],
+   "expected": 8
+  }
+ ],
+ "note": "每堆每次可拿 1 或 2 枚，求拿完所有硬币的最少次数"
+}

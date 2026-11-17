@@ -1,0 +1,48 @@
+{
+ "id": 142,
+ "slug": "linked-list-cycle-ii",
+ "title": "环形链表 II",
+ "difficulty": "中等",
+ "kind": "func",
+ "func": "detectCycle",
+ "params": [
+  "cyclelist"
+ ],
+ "ret": "list",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    [
+     3,
+     2,
+     0,
+     -4
+    ],
+    1
+   ],
+   "expected": 1
+  },
+  {
+   "args": [
+    [
+     1,
+     2
+    ],
+    0
+   ],
+   "expected": 0
+  },
+  {
+   "args": [
+    [
+     1
+    ],
+    -1
+   ],
+   "expected": -1
+  }
+ ],
+ "special_ret": "cycle_index",
+ "note": "返回入环节点；判题输出该节点在原链表中的下标，无环输出 -1"
+}

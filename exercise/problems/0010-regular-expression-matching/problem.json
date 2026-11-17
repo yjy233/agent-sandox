@@ -1,0 +1,51 @@
+{
+ "id": 10,
+ "slug": "regular-expression-matching",
+ "title": "正则表达式匹配",
+ "difficulty": "困难",
+ "kind": "func",
+ "func": "isMatch",
+ "params": [
+  "string",
+  "string"
+ ],
+ "ret": "bool",
+ "compare": "exact",
+ "cases": [
+  {
+   "args": [
+    "aa",
+    "a"
+   ],
+   "expected": false
+  },
+  {
+   "args": [
+    "aa",
+    "a*"
+   ],
+   "expected": true
+  },
+  {
+   "args": [
+    "ab",
+    ".*"
+   ],
+   "expected": true
+  },
+  {
+   "args": [
+    "aab",
+    "c*a*b"
+   ],
+   "expected": true
+  },
+  {
+   "args": [
+    "mississippi",
+    "mis*is*p*."
+   ],
+   "expected": false
+  }
+ ]
+}
